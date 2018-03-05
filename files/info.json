@@ -18,7 +18,7 @@
                       "In 2012, Rizk has co-founded SEED (Social Entrepreneurship Empowering Development), a project empowering Social Entrepreneurs and has been supporting startups and social enterprises since then."
                       ],
       "image_address" : "files/img/350x250/speaker2.jpg",
-      "image_address2" : "files/img/50x50/speaker1.jpg"
+      "image_address2" : "files/img/50x50/speaker2.jpg"
   },
   "speaker3" :{
      "name": "Mahmoud Noaman",
@@ -27,7 +27,7 @@
                       "He is currently studying MBA International Business."
                       ],
       "image_address" : "files/img/350x250/speaker3.jpg",
-      "image_address2" : "files/img/50x50/speaker1.jpg"
+      "image_address2" : "files/img/50x50/speaker3.jpg"
   },
   "speaker4" :{
      "name": "Ahmed Refaie",
@@ -39,7 +39,7 @@
                       " Ahmed holds a B.Sc. in Computer Engineering. He also holds Cambridge International Diploma in Business and he’s a PMT: Professional Market Trader. Currently, he’s working on his MBA, MFTA, and M.Sc. in Financial Engineering."
                       ],
       "image_address" : "files/img/350x250/speaker4.jpg",
-      "image_address2" : "files/img/50x50/speaker1.jpg"
+      "image_address2" : "files/img/50x50/speaker4.jpg"
   },
   "speaker5" :{
      "name": "Ehab Darwish",
@@ -48,7 +48,7 @@
                       "He is the former Business Development Manager at Spirula Systems and former “RTM” Real Time Management Specialist at Vodafone Shared Services, where he played a great role in launching Vodafone’s largest English/German speaking call center in Alexandria."
                       ],
       "image_address" : "files/img/350x250/speaker5.jpg",
-      "image_address2" : "files/img/50x50/speaker1.jpg"
+      "image_address2" : "files/img/50x50/speaker5.jpg"
   },
   "speaker6" :{
      "name": "Mahmoud Nour",
@@ -58,7 +58,7 @@
                       "Mahmoud holds a M.Sc. degree in Financial Economics from University of Leicester, The United Kingdom and a B.A. in Economics with minor in Business from the AUC."
                       ],
       "image_address" : "files/img/350x250/speaker6.jpg",
-      "image_address2" : "files/img/50x50/speaker1.jpg"
+      "image_address2" : "files/img/50x50/speaker6.jpg"
   },
   "speaker7" :{
      "name": "Ahmed Abd El-Fatah",
@@ -68,7 +68,7 @@
                       "In addition, Ahmed is a business writer at EBR- Emirates Magazine and provides his supervision to many extracurricular activities such as Stock Market Simulation Model (SMS)."
                       ],
       "image_address" : "files/img/350x250/speaker7.jpg",
-      "image_address2" : "files/img/50x50/speaker1.jpg"
+      "image_address2" : "files/img/50x50/speaker7.jpg"
   },
   "speaker8" :{
      "name": "Ahmed El-Sheikha",
@@ -78,7 +78,7 @@
                         " Ahmed has a B.Sc. degree in telecommunications and is a M.Sc. degree candidate in Entrepreneurship and Innovation Management at The Royal Institute of Technology in Stockholm, Sweden."
                       ],
       "image_address" : "files/img/350x250/speaker8.jpg",
-      "image_address2" : "files/img/50x50/speaker1.jpg"
+      "image_address2" : "files/img/50x50/speaker8.jpg"
   },
   "speaker9" :{
      "name": "Abdelaziz Ghis",
@@ -88,7 +88,7 @@
                         "Also, he was the President of Purble Development, where he launched the organization’s activities and recruited over 100 volunteers and grew the organisation, making it one of the best-known youth organisations in Alexandria."
                       ],
       "image_address" : "files/img/350x250/speaker9.jpg",
-      "image_address2" : "files/img/50x50/speaker1.jpg"
+      "image_address2" : "files/img/50x50/speaker9.jpg"
   },
   "speaker10" :{
      "name": "Mahmoud Al-Marsafawy",
@@ -97,7 +97,7 @@
                         "Also, Mahmoud previously worked as Account Executive at Blue Ocean Advertising and Account Executive at Andalusia Group for medical services."
                       ],
       "image_address" : "files/img/350x250/speaker10.jpg",
-      "image_address2" : "files/img/50x50/speaker1.jpg"
+      "image_address2" : "files/img/50x50/speaker10.jpg"
   }
 
 
