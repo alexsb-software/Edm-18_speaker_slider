@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)http://bootsnipp-env.elasticbeanstalk.com/iframe/ae6j3 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="robots" content="noindex">
+
+    <title>EDM Speakers</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="files/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <style type="text/css">
+    body {
+    padding-top:20px
+}
+#custom_carousel .item {
+
+    color:#000;
+    background-color:#fff;
+    padding:20px 0;
+}
+#custom_carousel .controls{
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding:0;
+    margin:0;
+    white-space: nowrap;
+    text-align: center;
+    position: relative;
+    background:#fff
+}
+#custom_carousel .controls li {
+    display: table-cell;
+    width: 1%;
+    max-width:90px
+}
+#custom_carousel .controls li.active {
+    background-color:#fff;
+    border-top:3px solid orange;
+}
+#custom_carousel .controls a small {
+    overflow:hidden;
+    display:block;
+    font-size:10px;
+    margin-top:5px;
+    font-weight:bold
+}
+    </style>
+    <script src="files/jquery-1.10.2.min.js"></script>
+    <script src="files/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        window.alert = function(){};
+        var defaultCSS = document.getElementById('bootstrap-css');
+        function changeCSS(css){
+            if(css) $('head > link').filter(':first').replaceWith('<link rel="stylesheet" href="'+ css +'" type="text/css" />');
+            else $('head > link').filter(':first').replaceWith(defaultCSS);
+        }
+        $( document ).ready(function() {
+          var iframe_height = parseInt($('html').height());
+          // window.parent.postMessage( iframe_height, 'http://bootsnipp.com');
+        });
+    </script>
+</head>
+<body>
+	<div class="container-fluid">
+    <div id="custom_carousel" class="carousel slide" data-ride="carousel" data-interval="1500">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <!--
+            <div class="item active">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-3"><img src="files/img/350x250/speaker1.jpg" class="img-responsive"></div>
+                        <div class="col-md-9">
+                            <h2>Ahmed El Dabaa</h2>
+                            <p>Ahmad El Dabaa has a broad experience in PR/FR field in different civil community organizations, as well as projects’ management skills in corporate world.</p>
+                            <p>Dabaa is currently working as a "Projects Manager" for Procter & Gamble Egypt. Before that, he Co-founded Spark Egypt Training Agency. He served as the head of the Public Relations Committee at IEEE Alexandria Student Branch. In 2010 he Co-Founded Step-Up youth initiative, and served as its first HR head and as a Steering Committee member. Ahmad is involved in conducting various training sessions for Personal Development as Soft Skills Trainer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          -->
+        <!-- End Item -->
+        </div>
+        <!-- End Carousel Inner -->
+        <div class="controls">
+            <ul class="nav">
+              <!--
+                <li data-target="#custom_carousel" data-slide-to="0" class="active"><a href="#"><img src="files/img/50x50/speaker1.jpg"><small>Ahmed El Dabaa</small></a>
+                </li>
+              -->
+            </ul>
+        </div>
+</div>
+</div>
+	<script type="text/javascript">
+	$(document).ready(function(ev){
+
+        load_json();
+
+        $('#custom_carousel').on('slide.bs.carousel', function (evt) {
+          $('#custom_carousel .controls li.active').removeClass('active');
+          $('#custom_carousel .controls li:eq('+$(evt.relatedTarget).index()+')').addClass('active');
+        });
+
+        function add_big(name,description,image_address,index){
+          // append to the silder;
+          var new_item = "";
+          new_item+= "<div class=\"item";
+          if( index === 0){
+            new_item+=" active";
+          }
+          new_item+= "\">";
+          new_item+= "<div class=\"container-fluid\">";
+          new_item+= "<div class=\"row\">";
+          new_item+= "<div class=\"col-md-3\"><img src=\"" + image_address + "\" class=\"img-responsive\"></div>";
+          new_item+=                    "<div class=\"col-md-9\">";
+          new_item+=                        "<h2>"+name+"</h2>";
+          for(var i = 0 ; i < description.length ; i++){
+                  new_item+="<p>"+description[i]+"</p>";
+          }
+          new_item+=                    "</div>";
+          new_item+=                "</div>";
+          new_item+=           " </div>";
+          new_item+=        "</div>";
+          return new_item;
+        }
+        function add_small(name,index,image_address){
+          // append to the silder;
+          var new_item = "";
+          new_item += "<li data-target=\"#custom_carousel\" data-slide-to=\""+index+"\"";
+          if( index === 0 ){
+            new_item+= "class=\"active\"";
+          }
+          new_item += "><a href=\"#\"><img src=\""+image_address+"\">";
+          new_item += "<small>"+name+"</small></a>";
+          new_item += "</li>";
+          return new_item;
+        }
+
+        function append_to_page(data){
+          var index = 0;
+            $.each( data, function( key, val ) {
+              var name = val.name;
+              var description = val.description;
+              var image_address= val.image_address;
+              var image_address2 = val.image_address2;
+              var new_item = add_big(name,description,image_address,index);
+              var new_item2 = add_small(name,index,image_address2);
+              $("ul").append(new_item2);
+              $(".carousel-inner").append(new_item);
+              index++;
+            });
+        }
+        function load_json(){
+          $.getJSON( "files/info.json",function (data){
+            append_to_page(data);
+          });
+        }
+    });
+	</script>
+</body></html>

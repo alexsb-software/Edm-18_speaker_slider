@@ -1,0 +1,104 @@
+{
+  "speaker1":{
+     "name": "Ahmed Amin",
+     "description" : [
+                      "Mr. Ahmed Amin has been working for P&G, currently handling Health, Beauty, and Grooming supply planning for the Middle East and Africa for six years now. He has experience in different fields including working as teaching assistant at AAST and a field engine assembly engineer at Caterpillar.",
+                       "Ahmed graduated with a B.Sc in Mechanical Engineering with honors."
+                    ],
+      "image_address" : "files/img/350x250/speaker1.jpg",
+      "image_address2" : "files/img/50x50/speaker1.jpg"
+  }
+  ,
+  "speaker2" :{
+     "name": "Ahmed Rizk",
+     "description" : [
+                      "Ahmed is a Management and Entrepreneurship Consultant, who’s been in the field since 2010. He is also a Startup Mentor at FEPS BI and AUC V-Lab; in addition, he’s been a judge in many startup competitions.",
+                      "Ahmed is the former Venture Director of Nahdet Misr's Educational Venture Capital, EdVentures and a former Partner and Education Manager at Startup School Egypt.",
+                      "He has worked with Injaz Egypt for 2 years as an Entrepreneurship Trainer and Consultant; also, he’s been a judge at its Startup Competition and a mentor for the Company Program teams.",
+                      "In 2012, Rizk has co-founded SEED (Social Entrepreneurship Empowering Development), a project empowering Social Entrepreneurs and has been supporting startups and social enterprises since then."
+                      ],
+      "image_address" : "files/img/350x250/speaker2.jpg",
+      "image_address2" : "files/img/50x50/speaker1.jpg"
+  },
+  "speaker3" :{
+     "name": "Mahmoud Noaman",
+     "description" : [
+                      "Mahmoud Is the Co-Founder of M3mal Co-working Space, aiming to build a distinctive entrepreneurship ecosystem. He is a Global Shapers member, and he is involved in various social activities with the goal of sharing experience and exchanging ideas in order to improve our community.",
+                      "He is currently studying MBA International Business."
+                      ],
+      "image_address" : "files/img/350x250/speaker3.jpg",
+      "image_address2" : "files/img/50x50/speaker1.jpg"
+  },
+  "speaker4" :{
+     "name": "Ahmed Refaie",
+     "description" : [
+                      "Ahmed has 8 years of highly professional experience in Asset, Wealth, and Investment Management and he’s the CEO of G.P.I. Global Partners Investments Limited, UK.",
+                      "Ahmed works with different financial institutions from all around the globe; in addition, he authors and lectures on Fundamental & Technical Analysis of Stocks and Bonds, International Money Markets, Forex trading, Commodities, Metals, and Oil & Gas.",
+                      "His training offerings of Finance & Investment included senior executives and professionals from NBE, NBK, QNB AlAhli, Piraeus, Barclays, Deloitte, Telecom Egypt, EFG-Hermes, and many others.",
+                      "He also has 5 years of extensive experience in Sales & Marketing and closed deals with different companies such as PEPSICO, Vodafone, Al Ahram for Beverages, Mazzika, Alam El Fan, Zoom, Rotana, Melody, Nogoom FM, Adidas, Levi’s, and Timberland, concerning sales, marketing, advertising, entertainment events, and sponsorship announcements.",
+                      " Ahmed holds a B.Sc. in Computer Engineering. He also holds Cambridge International Diploma in Business and he’s a PMT: Professional Market Trader. Currently, he’s working on his MBA, MFTA, and M.Sc. in Financial Engineering."
+                      ],
+      "image_address" : "files/img/350x250/speaker4.jpg",
+      "image_address2" : "files/img/50x50/speaker1.jpg"
+  },
+  "speaker5" :{
+     "name": "Ehab Darwish",
+     "description" : [
+                      "Ehab is Co-Founder of Learning Bubbles and Founder & Business Owner at Makanak Car Care. Also, he’s Mentor at Startups of Alex and Shaper at Global Shapers - World Economic Forum.",
+                      "He is the former Business Development Manager at Spirula Systems and former “RTM” Real Time Management Specialist at Vodafone Shared Services, where he played a great role in launching Vodafone’s largest English/German speaking call center in Alexandria."
+                      ],
+      "image_address" : "files/img/350x250/speaker5.jpg",
+      "image_address2" : "files/img/50x50/speaker1.jpg"
+  },
+  "speaker6" :{
+     "name": "Mahmoud Nour",
+     "description" : [
+                      "Mahmoud is the Manager of Borg El Arab Branch, Technology Innovation and Entrepreneurship Center (TIEC).",
+                      "He was a former Economic Specialist at the Economic Section, the American Embassy in Cairo. Also, he was Economic Researcher at the Information Center, Ministry of Communications and Information Technology. Moreover, he was Project Leader at Out of the Box, Egypt, where he lead the creative team in interpreting marketing objectives into creative strategies. In addition, he was a Teaching Assistant at the AUC.",
+                      "Mahmoud holds a M.Sc. degree in Financial Economics from University of Leicester, The United Kingdom and a B.A. in Economics with minor in Business from the AUC."
+                      ],
+      "image_address" : "files/img/350x250/speaker6.jpg",
+      "image_address2" : "files/img/50x50/speaker1.jpg"
+  },
+  "speaker7" :{
+     "name": "Ahmed Abd El-Fatah",
+     "description" : [
+                      "Ahmed is the Co-Founder of Pluto Co-Working Space and is an Account Manager at Advice Consultant company.",
+                      "He previously worked as an Operational Manager for textile industrial factory and as a Marketing Manager in another textile industrial factory.",
+                      "In addition, Ahmed is a business writer at EBR- Emirates Magazine and provides his supervision to many extracurricular activities such as Stock Market Simulation Model (SMS)."
+                      ],
+      "image_address" : "files/img/350x250/speaker7.jpg",
+      "image_address2" : "files/img/50x50/speaker1.jpg"
+  },
+  "speaker8" :{
+     "name": "Ahmed El-Sheikha",
+     "description" : [
+                        "Ahmed worked in Procter and Gamble and specialized in Project Management, holding several roles, globally, regionally, and locally.",
+                        "Also, he worked as Education Project Manager at Save the Children, focusing on youth empowerment through education. In addition, he is the Co-Founder of Umbrella, with the goal of supporting marginalized startups and providing incubation programs for them.",
+                        " Ahmed has a B.Sc. degree in telecommunications and is a M.Sc. degree candidate in Entrepreneurship and Innovation Management at The Royal Institute of Technology in Stockholm, Sweden."
+                      ],
+      "image_address" : "files/img/350x250/speaker8.jpg",
+      "image_address2" : "files/img/50x50/speaker1.jpg"
+  },
+  "speaker9" :{
+     "name": "Abdelaziz Ghis",
+     "description" : [
+                        "Abdelaziz Ghis is Business Development Manager at Almasrya and is Project Coordinator at Refugee Action Scotland.",
+                        "Abdelaziz was a Finance Business Partner at Unilever and Teaching Assistant at the Arab Academy for Science and Technology.",
+                        "Also, he was the President of Purble Development, where he launched the organization’s activities and recruited over 100 volunteers and grew the organisation, making it one of the best-known youth organisations in Alexandria."
+                      ],
+      "image_address" : "files/img/350x250/speaker9.jpg",
+      "image_address2" : "files/img/50x50/speaker1.jpg"
+  },
+  "speaker10" :{
+     "name": "Mahmoud Al-Marsafawy",
+     "description" : [
+                        "Mahmoud is a Senior Marketing Specialist at AlSalama Hospital – Andalusia Group.",
+                        "Also, Mahmoud previously worked as Account Executive at Blue Ocean Advertising and Account Executive at Andalusia Group for medical services."
+                      ],
+      "image_address" : "files/img/350x250/speaker10.jpg",
+      "image_address2" : "files/img/50x50/speaker1.jpg"
+  }
+
+
+}
