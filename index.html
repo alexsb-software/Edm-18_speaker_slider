@@ -145,7 +145,7 @@
               var image_address2 = val.image_address2;
               var new_item = add_big(name,description,image_address,index);
               var new_item2 = add_small(name,index,image_address2);
-              //$("ul").append(new_item2);
+              $("ul").append(new_item2);
               $(".carousel-inner").append(new_item);
               index++;
             });

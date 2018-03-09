@@ -81,23 +81,13 @@
       "image_address2" : "files/img/50x50/speaker8.jpg"
   },
   "speaker9" :{
-     "name": "Abdelaziz Ghis",
-     "description" : [
-                        "Abdelaziz Ghis is Business Development Manager at Almasrya and is Project Coordinator at Refugee Action Scotland.",
-                        "Abdelaziz was a Finance Business Partner at Unilever and Teaching Assistant at the Arab Academy for Science and Technology.",
-                        "Also, he was the President of Purble Development, where he launched the organization’s activities and recruited over 100 volunteers and grew the organisation, making it one of the best-known youth organisations in Alexandria."
-                      ],
-      "image_address" : "files/img/350x250/speaker9.jpg",
-      "image_address2" : "files/img/50x50/speaker9.jpg"
-  },
-  "speaker10" :{
      "name": "Mahmoud Al-Marsafawy",
      "description" : [
                         "Mahmoud is a Senior Marketing Specialist at AlSalama Hospital – Andalusia Group.",
                         "Also, Mahmoud previously worked as Account Executive at Blue Ocean Advertising and Account Executive at Andalusia Group for medical services."
                       ],
-      "image_address" : "files/img/350x250/speaker10.jpg",
-      "image_address2" : "files/img/50x50/speaker10.jpg"
+      "image_address" : "files/img/350x250/speaker9.jpg",
+      "image_address2" : "files/img/50x50/speaker9.jpg"
   }
 
 
